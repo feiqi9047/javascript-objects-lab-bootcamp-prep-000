@@ -1,7 +1,4 @@
-var recipes = {
-  veg:'tomato',
-  meat: 'chicken'
-}
+var recipes = new Object ({meat:'chicken'})
 
 function updateObjectWithKeyAndValue(object, key, value){
   recipes[key]=value
